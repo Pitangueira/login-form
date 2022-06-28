@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+
+
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+}
+
+
+body {
+
+
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+
+
+
+    background-color:  #191816;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+
+.aside-img {
+
+
+    position: absolute;
+    display: flex;
+
+    width: 720px;
+    height: 900px;
+    left: 720px;
+    top: 0px;
+
+    background: url(pexels-uriel-mont-6271725.jpg);
+}
+
+
+.logo-img {
+
+    position: absolute;
+    display: flex;
+    width: 115px;
+    height: 28px;
+    left: 40px;
+    top: 40px;
+
+
+}
+
+.container {
+
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+
+    flex-direction: column;
+
+
+    width: 572px;
+    height: 512px;
+    left: 74px;
+    top: 194px;
+
+    background: #24221F;
+    border-radius: 4px;
+
+}
+
+
+/*Fontes*/
+
+h1 {
+
+    position: absolute;
+    width: 176px;
+    height: 36px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+
+
+    color: #D4CCB6;
+}
+
+h2 {
+    position: relative;
+    width: 334px;
+    height: 23px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+
+    color: #AFB6C2;
+
+
+}
+
+.form-header {
+
+    display: flex;
+    box-sizing: border-box;
+    text-align: left;
+
+    position: absolute;
+
+
+    width: 334px;
+    height: 64px;
+
+
+
+    padding-left: 119px;
+    padding-right: 119px;
+    padding-bottom: 393px;
+    ;
+
+    padding-top: 40px;
+
+}
+
+.header {
+
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 0px;
+}
+
+.form-img {
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    padding-left: 0px;
+    top: 62px;
+
+
+
+}
+
+.formt2 {
+
+    position: absolute;
+    width: 334px;
+    height: 23px;
+
+
+
+    padding-right: 119px;
+    padding-bottom: 393px;
+    ;
+
+    padding-top: 50px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+
+    color: #AFB6C2;
+
+}
+
+.email {
+
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+
+
+    padding-left: 119px;
+    padding-right: 118px;
+    padding-bottom: 293px;
+    padding-top: 200px;
+
+
+
+}
+
+.email-title {
+
+    position: absolute;
+    width: 54px;
+    height: 24px;
+
+    top:70px;
+    
+    padding-top: 80px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+
+    color: #AFB6C2;
+
+
+}
+
+.email .mail-box   {
+
+    display: flex;
+    box-sizing: border-box;
+
+    position: absolute;
+
+    width: 335px;
+    height: 44px;
+
+    
+
+
+    border: 1px solid #FFC632;
+    box-shadow: 0px 0px 0px 2px #FFDE88;
+    border-radius: 4px;
+
+}
+
+  
+
+ .senha {
+    
+    position: absolute;
+    width: 335px;
+    height: 73px;
+    
+
+}
+
+
+
+
+.pass-title {
+
+    left: 119px;
+    top:250px
+
+
+}
+input  {
+
+   
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #A9AFB9;
+
+    background-color: #24221f;
+
+    
+
+   
+        
+    
+}
+
+ .passw {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 335px;
+    height: 44px;
+    
+
+    top: 290px;
+    left: 119px;
+
+
+    box-sizing: border-box;
+
+    
+
+        border: 1px solid #868686;
+        border-radius: 4px;
+}
+
+
+
+.checkbox {
+    position: absolute;
+    width: 106px;
+    height: 20px;
+    left: 119px;
+    top: 330px;
+}
+
+ input [type=checkbox] {
+
+
+    position: absolute;
+    box-sizing: border-box;
+
+    width: 20px;
+    height: 20px;
+    left: 32px;
+    top: 59px;
+    cursor: pointer;
+
+
+    border: 1px solid rgba(134, 134, 134, 1)
+
+
+}
+
+input [type=checkbox]  :checked {
+
+    position: relative;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    left: 32px;
+    top: 59px;
+    display: block;
+
+
+    border: 1px solid rgba(255, 198, 50, 1)
+
+
+}
+
+.checkmark {
+    height: 21px;
+    width: 21px;
+    border: 1px solid #afb6c2;
+    border-radius: 5px;
+    background-color: rgba(178, 34, 34, 0);
+}
+
+.checkmark:after {
+    content: url(./assets/check.svg);
+    display: none;
+}
+
+.form-actions input[type=checkbox]:checked ~ .checkmark:after {
+    display: block;
+}
+
+.forgot-p {
+
+    
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFC632;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 334px;
+    height: 51px;
+    left: 119px;
+    top: 390px;
+    
+    background: #FFC632;
+    border-radius: 4px;}
+
+
+
+  .registre-se {
+
+    
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    
+
+    color: #FFC632;
+}
+
+.registre{
+    
+display: flex;
+box-sizing: border-box;
+
+padding-left: 119px;
+padding-top: 440px;
+
+}
+
